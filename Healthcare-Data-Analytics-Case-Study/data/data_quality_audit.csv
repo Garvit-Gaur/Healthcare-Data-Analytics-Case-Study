@@ -1,0 +1,6 @@
+Table,Issue,Excel Result
+patient,Mixed contact number types,26319
+patient,negative contact numbers,1216
+bed,Bed numbers are interpreted/displayed as dates instead of bed-number format,"Date-like values such as 01-Jan, 01-Feb, etc. were converted to 01-01, 01-02, etc."
+billing_details,Missing reference_id values,"67,402 missing values are corrected"
+patient_insurance,Duplicate policy numbers,4 unique policy numbers are duplicated across 8 records and require investigation
